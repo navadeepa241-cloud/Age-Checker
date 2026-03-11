@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Checker | Find Your Exact Age</title>
+    <meta name="description" content="A beautiful and intuitive age calculator.">
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="background-animation"></div>
+    <div class="blob-c">
+        <div class="blob"></div>
+        <div class="blob one"></div>
+    </div>
+
+    <div class="container glass-panel">
+        <div class="header">
+            <h1>Age Checker</h1>
+            <p class="subtitle">Enter your birth date to find out your exact age.</p>
+        </div>
+        
+        <div class="input-group">
+            <label for="birthDate" class="input-label">Date of Birth</label>
+            <input type="date" id="birthDate" aria-label="Birth Date">
+        </div>
+        
+        <button id="checkBtn" class="primary-btn">
+            <span>Calculate Age</span>
+        </button>
+        
+        <div class="result-container">
+            <p id="result"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
